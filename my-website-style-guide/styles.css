@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #000000;
+    color: #edeec9;
+    font-family: 'Courier New', Courier, monospace
+}
+
+h1, h2, h3:not(.color-name){
+    background-color: #132a13;
+    padding-left: 20px;
+}
+
+main {
+    max-width: 900px;
+    min-width: 400px;
+    margin: auto;
+    border: 5px solid #132a13;
+    border-radius: 20px;
+}
+
+#colors {
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: center;
+    gap: 20px;
+}
+
+#colors > h2 {
+    width: 100%;
+}
+
+.color-block {
+    width: 400px;
+    height: 125px;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+}
+
+.block1 {
+    background-color: #000000;
+}
+
+.block2 {
+    background-color: #132a13;
+}
+
+.block3 {
+    color: black;
+    font-weight: bold;
+    background-color: #8cb369;
+}
+
+.block4 {
+    color: black;
+    font-weight: bold;
+    background-color: #affc41;
+}
+
+.block5 {
+    color: black;
+    font-weight: bold;
+    background-color: #edeec9;
+}
+
+.text-block {
+    padding-left: 30px;
+}
+
+a {
+    color:#affc41;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #8cb369;
+    
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.font-block {
+    border: 3px solid #edeec9;
+    padding: 5px;
+}
+
+p {
+    padding-left: 20px;
+}
+
+.h1 {
+    font-size: 2.1rem;
+    font-family: 'Prosto One', cursive;
+}
+
+.h2 {
+    font-size: 1.8rem;
+    font-family: 'Prosto One', cursive;
+}
+
+.h3 {
+    font-size: 1.6rem;
+    font-family: 'Prosto One', cursive;
+}
+
+.h4 {
+    font-size: 1.4rem;
+    font-family: 'Prosto One', cursive;
+}
+
+.text {
+    font-size: 1rem;
+    font-family: 'Numans', sans-serif;
+}
