@@ -1,0 +1,172 @@
+/* Global Styles */
+
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+
+body {
+    margin: 0;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+h4 {
+    margin-top: 15px;
+}
+
+#logo {
+    height: 50px;
+    margin-left: 10px;
+}
+
+/* Navigation */
+
+nav {
+    position: fixed;
+    top: 0px;
+    height: 69px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid seashell;
+    background-color: black;
+}
+
+nav ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav li a {
+    color: seashell;
+}
+
+
+#section-container {
+    margin: auto;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+}
+
+/* Header and Mission */
+
+header {
+    margin-top: 70px;
+}
+
+#mission-section {
+    background-image: url("images/img-mission-background.jpg");
+    width: 1200px;
+    height: 700px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#mission-text {
+    background-color: black;
+    text-align: center;
+}
+
+#mission-text h2{
+    margin-top: 10px;
+}
+
+#mission-text h4 {
+    margin-bottom: 10px;
+}
+
+/* Featured Teas */
+
+.featured-card img {
+    width: 300px;
+}
+
+#featured-tea-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 1000px;
+    margin: 25px 0;
+}
+
+#featured-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    row-gap: 10px;
+    column-gap: 35px;
+}
+
+.featured-card p {
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Locations */
+
+#location-section {
+    background-image: url("images/img-locations-background.jpg");
+    height: 500px;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding-bottom: 45px;
+}
+
+#location-section h2 {
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+#locations {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.location-card {
+    background-color: black;
+    text-align: center;
+    line-height: 40px;
+    width: 300px;
+    height: 300px;
+    opacity: 1;
+}
+
+/* Footer */
+
+footer {
+    height: 200px;
+    text-align: center;
+}
+
+footer h2 {
+    margin-top: 10px;
+}
+
+main > p {
+    margin-left: 20px;
+}
