@@ -123,7 +123,7 @@ header {
 
 /* Locations */
 
-#location-section {
+#locations-section {
     background-image: url("images/img-locations-background.jpg");
     height: 500px;
     width: 1200px;
@@ -135,7 +135,7 @@ header {
     padding-bottom: 45px;
 }
 
-#location-section h2 {
+#locations-section h2 {
     margin-top: 0px;
     margin-bottom: 15px;
 }
@@ -147,7 +147,7 @@ header {
     gap: 40px;
 }
 
-.location-card {
+.locations-card {
     background-color: black;
     text-align: center;
     line-height: 40px;
