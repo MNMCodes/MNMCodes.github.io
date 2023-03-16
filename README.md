@@ -13,3 +13,6 @@ https://mnmcodes.github.io/tea-cozy-challenge/
 
 Custom Business Site Project
 https://mnmcodes.github.io/flexbox-business-site-final/
+
+Custom Responsive Club Site Project
+https://mnmcodes.github.io/responsive-club-site/
