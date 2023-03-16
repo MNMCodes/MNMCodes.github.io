@@ -1,0 +1,195 @@
+html{
+    font-family: sans-serif;
+    color: white;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+/* Navigation */
+nav {
+    margin: 0 auto;
+    width: 60%;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+    background-color: rgb(128, 128, 128);
+    width: 100%;
+}
+
+nav li {
+    width: 10rem;
+    text-align: center;
+    height: 3rem;
+
+    display: flex;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    line-height: 45px;
+}
+
+nav a:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+@media only screen and (max-width: 793px){
+    nav ul {
+        flex-direction: column;
+    }
+    nav li {
+        width: 100%;
+    }
+}
+/* Main CTA */
+
+#main-cta-container{
+    margin: auto;
+    width: 60%;
+    background-image: url("images/greg-rakozy-Galaxy.jpg");
+    background-size: cover;
+    background-position: 20% 20%;
+}
+
+#main-cta {
+    width: 44%;
+    height: 14rem;
+    margin: auto;
+    padding: 2rem 1rem 1rem;
+    background-color: rgb(65, 65, 65);
+    text-align: center;
+}
+
+#main-cta h1 {
+    font-size: 3rem;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+#main-cta a {
+    display: inline-block;
+    font-size: 1.2rem;
+    width: 33.33%;
+    min-width: 9.5rem;
+    height: 3rem;
+    background-color: rgb(119, 143, 228);
+    line-height: 50px;
+    border-radius: 15px;
+    
+    color: white;
+    text-decoration: none;
+}
+
+#main-cta a:hover {
+    background-color: rgb(87, 104, 167);
+    color: aliceblue;
+}
+
+@media only screen and (max-width: 1347px){
+    #main-cta{
+        width: 100%;
+        height: 12rem;
+        padding: 2rem 0 0 0;
+    }
+}
+
+@media only screen and (max-width: 792px){
+    #main-cta {
+        height: 14rem;
+    }
+}
+@media only screen and (max-width: 593px){
+    #main-cta {
+        padding-bottom: 0;
+    }
+}
+
+@media only screen and (max-width: 356px){
+    #main-cta p {
+        display: none;
+    }
+
+    #main-cta {
+        padding-bottom: 2rem;
+    }
+}
+
+/* Club Info */
+
+#club-info-section section {
+    background-color: rgb(65, 65, 65);
+    margin: 0 auto;
+    width: 60%;
+    display: flex;
+    
+}
+
+#club-info-section section {
+    margin: 2rem auto;
+}
+
+#club-info-section div {
+    padding: 0.5rem 2rem;
+}
+
+#club-info-section h2 {
+    text-align: center;
+}
+#club-info-section img {
+    width: 15rem
+}
+
+@media only screen and (max-width: 1135px){
+
+    #club-info-section section:first-of-type {
+        margin-top: 2rem;
+    }
+
+    #club-info-section section {
+        margin: 0 auto;
+        flex-direction: column;
+        border: 1px solid rgb(65, 65, 65);
+    }
+
+    #club-info-section section:nth-of-type(2){
+        flex-direction: column-reverse;
+    }
+
+    #club-info-section img {
+        width: 100%;
+    }
+}
+
+/* MIN WIDTH */
+
+nav, #main-cta, #main-cta-container, #club-info-section section {
+    min-width: 29rem;
+}
+
+/* MAX WIDTH */
+nav, #main-cta, #main-cta-container, #club-info-section section {
+    max-width: 58rem;
+}
+
+/* FULL WIDTH SWITCH */
+
+@media only screen and (max-width: 464px){
+    nav, #main-cta, #main-cta-container, #club-info-section section {
+        min-width: 18rem;
+        width: 100%;
+    }
+}
