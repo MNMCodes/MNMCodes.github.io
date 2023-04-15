@@ -2,6 +2,7 @@ body{
     box-sizing: border-box;
     margin: 0;
     font-family: sans-serif;
+    background-color: gray;
 }
 
 section, h3, h2, h1, p {
