@@ -4,7 +4,9 @@ nav {
 }
 
 nav ul {
+    height: 2rem;
     display: flex;
     list-style-type: none;
     justify-content: space-between;
+    align-items: center;
 }
