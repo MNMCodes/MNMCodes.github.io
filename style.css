@@ -108,3 +108,15 @@ main {
     width: 15rem;
     text-align: center;
 }
+
+.project-card a {
+    color: rgb(28, 125, 185)
+}
+
+.project-card a:hover {
+    color: orangered;
+}
+
+.project-card a:visited {
+    color: rgb(118, 33, 2);
+}
